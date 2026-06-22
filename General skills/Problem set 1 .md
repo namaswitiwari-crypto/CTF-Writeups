@@ -29,9 +29,9 @@ Input was in hexadecimal, so I used **From Hex** to convert it into ASCII text.
 CyberChef is a powerful web tool that allows encoding, decoding, and data transformations through drag‑and‑drop “recipes.”  
 Instead of writing scripts, I can quickly apply operations like **Base64 decode**, **Hex to ASCII**, or **ROT13**.  
 This challenge helped me recognize common encodings and practice converting them efficiently.
----
 
-## 🎯 Takeaways
+
+## Takeaways
 - Learned how to use CyberChef’s drag‑and‑drop recipes.  
 - Practiced converting between different bases (decimal --> binary and hexadecimal --> decimal).  
 - Understood how to decode Hex into ASCII text.  
