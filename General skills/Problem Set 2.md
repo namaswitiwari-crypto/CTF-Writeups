@@ -19,23 +19,11 @@ Open the file, but the contents looked gibberish with the flag hidden inside.
 
 ### Commands
 ```bash
-grep [flag] [pattern] [file path]   # Generic usage 
-
-grep -i pico flag.txt               # actual command used
-``` 
-
-- here -i ignores the uppercase and lowercase of the pattern pico
-
-or (based on hint)
-```bash
-chmod +x flag.txt
-./flag.txt
+chmod +x warm
+./warm -h
 ```
-
 #### Explanation
-- **grep** can be used to search for the flag pattern inside the file.
 - The hint suggested making the file executable **(chmod +x)** and then running it.
-- Both approaches helped uncover the flag.
 
 ## Challenge 3: convertme.py
 ### Task

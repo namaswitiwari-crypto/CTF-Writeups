@@ -27,7 +27,7 @@ nc example.picoctf.net 12345           # actual command used
 
 
 
-\## Challenge 2: Big Zip
+\## Challenge 2: Tab Tab Attack
 
 \### Task
 
