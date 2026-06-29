@@ -59,31 +59,21 @@ strings Addadshashanammu.zip | grep -i pico   # cleaner search
 
 
 
-\##Challenge 3: Python Script with Password
+\##Challenge 3:  Python Wrangling
+### Task
+Run `ende.py` using `password.txt` to decrypt `flag.txt.en`.
 
-\###Task
-
-Inspect the Python file to find the required password, then run it.
-
-
-
-\### Commands
-
+### Commands
 ```bash
-
-nano script.py        # open file to read password
-
-python3 script.py     # execute with Python 3
-
+nano ende.py                     # check script format
+cat password.txt                 # read the password
+python3 ende.py -d flag.txt.en
 ```
-
-###Explanation
-
-* Opening the file with nano revealed the password prompt.
-* After entering the correct password, the script printed the flag.
-* This reinforced how to read and edit files before executing them.
-* Since Python 2 is outdated, Python 3 is used to run the script.
-
+### Explanation
+- Opening ende.py showed the format for decryption.
+- The password was stored in password.txt.
+- Running the script with -d decrypted flag.txt.en and revealed the flag.
+- This reinforced how Python scripts can be used like executables.
 
 
 \## Challenge 4: SSH Exploration

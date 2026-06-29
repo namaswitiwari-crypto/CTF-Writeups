@@ -23,7 +23,9 @@ chmod +x warm
 ./warm -h
 ```
 #### Explanation
-- The hint suggested making the file executable **(chmod +x)** and then running it.
+- The hint suggested making the file executable with `chmod +x`.  
+- Running `./warm -h` displayed the help information, which contained the flag.  
+- This reinforced the importance of checking help flags when exploring binaries.
 
 ## Challenge 3: convertme.py
 ### Task
@@ -57,7 +59,7 @@ nc fickle-tempest.picoctf.net 63441     # actual command used
 - This challenge reinforced how Netcat is a versatile tool for interacting with remote services.
 ---
 
-###Takeaways
+### Takeaways
 - Practiced reading files with cat.
 - Learned to search inside files with grep.
 - Understood how to make files executable with chmod +x.
